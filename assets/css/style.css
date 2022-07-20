@@ -118,7 +118,7 @@ main{
   .button {
     margin: 0 auto;
     display: block;
-    width: 140px;
+    width: 90%;
     height: 45px;
     font-family: 'Roboto', sans-serif;
     font-size: 11px;
@@ -142,7 +142,7 @@ main{
 }
 
 .unit{
-    width: 30%;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -157,7 +157,9 @@ main{
 .img_in_unit > img{
     padding: 4px;
     padding-bottom: 0px;
+    object-fit: cover;
     display: block;
+    height: 250px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
