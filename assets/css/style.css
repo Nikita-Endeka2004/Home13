@@ -66,13 +66,13 @@ main{
 
 .element{
     margin: 20px auto 20px auto;
-    width: 50%;
+    width: 100%;
     display: grid;
     gap: 20px;
     grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: ". element1 "
-                         ". element2 " 
-                         ". element3 ";
+    grid-template-areas: "element1 "
+                         "element2 " 
+                         "element3 ";
 }
 
 .element_1_1{
@@ -259,5 +259,5 @@ footer > p {
     footer{
         width: 70%;
     }
-    
+
 }
